@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a4028d461853c8d429fc4b69bba4c0dd, type: 3}
+  m_Name: Sandwich 1
+  m_EditorClassIdentifier: 
+  sandwichName: Sanduba
+  sandwichIcon: {fileID: -1144471042, guid: 1b08143d683d9764294ca0b5e763bc53, type: 3}
+  compoundIngredients:
+  - ingredientName: Bread
+    ingredientIcon: {fileID: -43957287, guid: ef92f89ef0e60e149b7a717f492057dc, type: 3}
+  - ingredientName: Lettuce
+    ingredientIcon: {fileID: -835425808, guid: ef92f89ef0e60e149b7a717f492057dc, type: 3}
+  - ingredientName: Onions
+    ingredientIcon: {fileID: -731191002, guid: ef92f89ef0e60e149b7a717f492057dc, type: 3}
+  - ingredientName: Ham
+    ingredientIcon: {fileID: -1708581323, guid: ef92f89ef0e60e149b7a717f492057dc, type: 3}
+  - ingredientName: Bread
+    ingredientIcon: {fileID: -43957287, guid: ef92f89ef0e60e149b7a717f492057dc, type: 3}

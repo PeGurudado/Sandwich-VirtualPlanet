@@ -1,0 +1,1524 @@
+fileFormatVersion: 2
+guid: ef92f89ef0e60e149b7a717f492057dc
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Ingredients Sprites_0
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 3187
+        width: 663
+        height: 236
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cfd1a6ee8ae0474388f430c9cb5a325
+      internalID: -795209544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Onions
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 3211
+        width: 683
+        height: 229
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44e2c4e52c5f6eb4fb2193f3b27d342b
+      internalID: -731191002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ingredients Sprites_2
+      rect:
+        serializedVersion: 2
+        x: 1700
+        y: 3208
+        width: 677
+        height: 191
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 895a2da9157b1254aa574db65c8e9968
+      internalID: -1536611146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ingredients Sprites_3
+      rect:
+        serializedVersion: 2
+        x: 2470
+        y: 3215
+        width: 622
+        height: 198
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11d5ddaf5619d2945b5fd8aa1aeeb837
+      internalID: 1208337576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ingredients Sprites_4
+      rect:
+        serializedVersion: 2
+        x: 3235
+        y: 3136
+        width: 721
+        height: 314
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6a5fe4b1b18e3e4dad283046d253976
+      internalID: -1133425351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ingredients Sprites_5
+      rect:
+        serializedVersion: 2
+        x: 4028
+        y: 3157
+        width: 605
+        height: 170
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c43a1a83056fdf4aabb5912ba55bc34
+      internalID: 115812458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ingredients Sprites_6
+      rect:
+        serializedVersion: 2
+        x: 5047
+        y: 121
+        width: 1910
+        height: 3165
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b872b40fe9ecb0f47b83b8c796639a97
+      internalID: -1245272437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ingredients Sprites_7
+      rect:
+        serializedVersion: 2
+        x: 5539
+        y: 3273
+        width: 37
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4de1b767ac4d9d044a1a21bff64c8c72
+      internalID: -1905726075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ingredients Sprites_8
+      rect:
+        serializedVersion: 2
+        x: 1150
+        y: 3167
+        width: 82
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7452bfc8afd0ba4e98270f1817a24c6
+      internalID: -1610228272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lettuce
+      rect:
+        serializedVersion: 2
+        x: 1687
+        y: 2876
+        width: 718
+        height: 304
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da9617fc7db04ba4d8632d8ff7da2040
+      internalID: -835425808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ingredients Sprites_10
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 2890
+        width: 745
+        height: 277
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 591a269eaf15a854d908711b6bdb1e4d
+      internalID: -477348356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ingredients Sprites_11
+      rect:
+        serializedVersion: 2
+        x: 949
+        y: 2962
+        width: 386
+        height: 171
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8165bdf30c4b9c242adcff982ea37d55
+      internalID: 58629392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ingredients Sprites_12
+      rect:
+        serializedVersion: 2
+        x: 1212
+        y: 2934
+        width: 314
+        height: 181
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cfe422f8f0f2f7448aa7fafc00ad272
+      internalID: 1236625706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ingredients Sprites_13
+      rect:
+        serializedVersion: 2
+        x: 2452
+        y: 2951
+        width: 660
+        height: 216
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf72a295ce9eaac4994e1e2a4ce6bec8
+      internalID: 1926187794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ingredients Sprites_14
+      rect:
+        serializedVersion: 2
+        x: 3262
+        y: 2856
+        width: 667
+        height: 266
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ee78aaf9afe97847a9e096ee5e7587c
+      internalID: 160002525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ingredients Sprites_15
+      rect:
+        serializedVersion: 2
+        x: 4021
+        y: 2921
+        width: 509
+        height: 181
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e09af6c65f4dd44993052eba6cf6d42
+      internalID: -352349876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ingredients Sprites_16
+      rect:
+        serializedVersion: 2
+        x: 4510
+        y: 3006
+        width: 147
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d6bccd34dfb59446892f1c934bb68e3
+      internalID: 1082604622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ingredients Sprites_17
+      rect:
+        serializedVersion: 2
+        x: 4534
+        y: 2965
+        width: 48
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1e3555910ad4e643918b28a1e761a21
+      internalID: 733872622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ingredients Sprites_18
+      rect:
+        serializedVersion: 2
+        x: 1346
+        y: 2924
+        width: 60
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e90924a349c6564cb818926a6831c44
+      internalID: -976757503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ingredients Sprites_19
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 2808
+        width: 133
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 441bfb387ae5cf3449a469acc2696cf9
+      internalID: -1097147413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ingredients Sprites_20
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 2811
+        width: 123
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 174b36679f0d4e049aa98db580191bd8
+      internalID: 78183729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ingredients Sprites_21
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 2750
+        width: 134
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e283b41c885309141b6da9e91aed4650
+      internalID: -1262819926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tomatoes
+      rect:
+        serializedVersion: 2
+        x: 921
+        y: 2662
+        width: 605
+        height: 218
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ea6595b88f6dc640abc84cdbc15df9a
+      internalID: -7629271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ingredients Sprites_23
+      rect:
+        serializedVersion: 2
+        x: 1769
+        y: 2699
+        width: 554
+        height: 176
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f446513a614b5c04a9ad06cbe2d242e3
+      internalID: -1809034335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ingredients Sprites_24
+      rect:
+        serializedVersion: 2
+        x: 2524
+        y: 2709
+        width: 328
+        height: 195
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec50a9b06cbd48f48a42b77d35d17060
+      internalID: -1929180629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ingredients Sprites_25
+      rect:
+        serializedVersion: 2
+        x: 2798
+        y: 2709
+        width: 328
+        height: 188
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 157373c81c98a034f9feafa3a87dcacf
+      internalID: -304307043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ingredients Sprites_26
+      rect:
+        serializedVersion: 2
+        x: 3239
+        y: 2675
+        width: 700
+        height: 177
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 143bbc04555926a49bdbf66293d85554
+      internalID: -735149900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ingredients Sprites_27
+      rect:
+        serializedVersion: 2
+        x: 4008
+        y: 2685
+        width: 659
+        height: 184
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a30da273630d65439b0189aaa04af89
+      internalID: 186005074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ingredients Sprites_28
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 2733
+        width: 147
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54f34b3996a72d448aff1a1e47d1b9dd
+      internalID: 2034302996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ingredients Sprites_30
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 2678
+        width: 153
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6caa82a1e89a70e4f8925b589f187317
+      internalID: 1809258426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ingredients Sprites_31
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 2288
+        width: 755
+        height: 369
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ceac05d22a949d44b92091a8548f198
+      internalID: -49576245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ingredients Sprites_32
+      rect:
+        serializedVersion: 2
+        x: 836
+        y: 2334
+        width: 799
+        height: 272
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 206b77e312cb5324e9690b9f61ec9cc1
+      internalID: -575153925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cheese
+      rect:
+        serializedVersion: 2
+        x: 1751
+        y: 2333
+        width: 715
+        height: 277
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc8bcb44d446d884fba50de78b0a4542
+      internalID: -270534185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ingredients Sprites_34
+      rect:
+        serializedVersion: 2
+        x: 2500
+        y: 2394
+        width: 650
+        height: 267
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92490f4d02375dc4e8b36cd52c5fcd5c
+      internalID: -393245327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ingredients Sprites_35
+      rect:
+        serializedVersion: 2
+        x: 3324
+        y: 118
+        width: 1743
+        height: 2492
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cd3c5ae01d9db94aa2ffd7fd8e36717
+      internalID: -1747488699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ingredients Sprites_36
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 1919
+        width: 731
+        height: 339
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc18b8594ee433b4286c17d78ae0cf8f
+      internalID: -9621113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ingredients Sprites_37
+      rect:
+        serializedVersion: 2
+        x: 877
+        y: 1919
+        width: 649
+        height: 386
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb71744a269ffc44c87aeb23ae9e1ec9
+      internalID: 1840782263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ingredients Sprites_38
+      rect:
+        serializedVersion: 2
+        x: 1577
+        y: 1929
+        width: 735
+        height: 332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c9ec30e3f635e34997f4f0a2bd0a084
+      internalID: 984385199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ingredients Sprites_39
+      rect:
+        serializedVersion: 2
+        x: 2494
+        y: 2169
+        width: 650
+        height: 177
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a566ce63eca12c04aadfa935cc562e11
+      internalID: -1069157246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ingredients Sprites_40
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 1564
+        width: 741
+        height: 277
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1ed31f1e8af3b945a7d984d7b35e84e
+      internalID: -954524322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ingredients Sprites_41
+      rect:
+        serializedVersion: 2
+        x: 873
+        y: 1540
+        width: 653
+        height: 297
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83df599a2df65c947990de6170640cfc
+      internalID: -154441578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ingredients Sprites_42
+      rect:
+        serializedVersion: 2
+        x: 1571
+        y: 1612
+        width: 748
+        height: 273
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4473b96f69800b046b4eec1257a5964d
+      internalID: -522344407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ingredients Sprites_43
+      rect:
+        serializedVersion: 2
+        x: 2405
+        y: 1796
+        width: 840
+        height: 325
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2804b8a7fb0324246b7509f2eae3fcad
+      internalID: -1191887675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ingredients Sprites_44
+      rect:
+        serializedVersion: 2
+        x: 3293
+        y: 1782
+        width: 99
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fef656607f5d1b946aa82acb8b836d78
+      internalID: -561824062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ham
+      rect:
+        serializedVersion: 2
+        x: 2483
+        y: 1475
+        width: 684
+        height: 273
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e4a6abcb063705458e40254f4dbec33
+      internalID: -1708581323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ingredients Sprites_46
+      rect:
+        serializedVersion: 2
+        x: 3266
+        y: 1622
+        width: 284
+        height: 78
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0785a897501af124c97a8ba6428ab64b
+      internalID: 579902701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ingredients Sprites_47
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 1164
+        width: 735
+        height: 331
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b92c0f073fa1ae4984f30a7ef6229ea
+      internalID: -888749134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ingredients Sprites_48
+      rect:
+        serializedVersion: 2
+        x: 866
+        y: 1161
+        width: 732
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b06c389cb44262345b5b948e82cdcb99
+      internalID: -1575241627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ingredients Sprites_49
+      rect:
+        serializedVersion: 2
+        x: 1646
+        y: 1161
+        width: 653
+        height: 389
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8448c4605db685c4484ad98e92a81052
+      internalID: 1966076688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ingredients Sprites_50
+      rect:
+        serializedVersion: 2
+        x: 4907
+        y: 1437
+        width: 170
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec5d171bc09569c44b8661ca17092308
+      internalID: -192695873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ingredients Sprites_51
+      rect:
+        serializedVersion: 2
+        x: 2411
+        y: 1147
+        width: 769
+        height: 280
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e23bc95f839a79f48adeec3a6980569d
+      internalID: 888230064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ingredients Sprites_52
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 846
+        width: 748
+        height: 273
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 724666352fdf996499e96145f573ee5c
+      internalID: -197811293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ingredients Sprites_53
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 808
+        width: 745
+        height: 277
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f032e6edd3ad18745b5002e9983a2fe9
+      internalID: 1159901886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ingredients Sprites_54
+      rect:
+        serializedVersion: 2
+        x: 1646
+        y: 784
+        width: 653
+        height: 298
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0549ca3fb57a8c489972a6739f26664
+      internalID: 1850059229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ingredients Sprites_55
+      rect:
+        serializedVersion: 2
+        x: 2439
+        y: 825
+        width: 714
+        height: 274
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98c64cb6e59c78346b3f57dc67e1d70c
+      internalID: 1055134899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bread-1
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 439
+        width: 920
+        height: 315
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6796829aaf9f10444bab5dca95b61681
+      internalID: -43957287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ingredients Sprites_57
+      rect:
+        serializedVersion: 2
+        x: 1044
+        y: 463
+        width: 909
+        height: 267
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52605faf33b763d43bc8c68983c002d7
+      internalID: 1658356861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ingredients Sprites_58
+      rect:
+        serializedVersion: 2
+        x: 2022
+        y: 463
+        width: 909
+        height: 267
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8adfc3fee60f83e49b5c4c7538937a2f
+      internalID: -1934863832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ingredients Sprites_59
+      rect:
+        serializedVersion: 2
+        x: 2938
+        y: 306
+        width: 174
+        height: 352
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5889f6ac3e72a994cad0e7308695ac49
+      internalID: 331059446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bread-2
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 56
+        width: 923
+        height: 299
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fb10b685cf666f4da7317cc8cc5f899
+      internalID: 705700452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ingredients Sprites_61
+      rect:
+        serializedVersion: 2
+        x: 1048
+        y: 63
+        width: 919
+        height: 315
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 388eeec11b44bad4c8028173b9018eab
+      internalID: -102407567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ingredients Sprites_62
+      rect:
+        serializedVersion: 2
+        x: 2022
+        y: 63
+        width: 922
+        height: 315
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06a1a63fa8bb2c6459e2f3a9855ee006
+      internalID: 1666954067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: ff1ad0f5f2eebfb4d9ca1edad2e55307
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Bread-1: -43957287
+      Bread-2: 705700452
+      Cheese: -270534185
+      Ham: -1708581323
+      Ingredients Sprites_0: -795209544
+      Ingredients Sprites_10: -477348356
+      Ingredients Sprites_11: 58629392
+      Ingredients Sprites_12: 1236625706
+      Ingredients Sprites_13: 1926187794
+      Ingredients Sprites_14: 160002525
+      Ingredients Sprites_15: -352349876
+      Ingredients Sprites_16: 1082604622
+      Ingredients Sprites_17: 733872622
+      Ingredients Sprites_18: -976757503
+      Ingredients Sprites_19: -1097147413
+      Ingredients Sprites_2: -1536611146
+      Ingredients Sprites_20: 78183729
+      Ingredients Sprites_21: -1262819926
+      Ingredients Sprites_23: -1809034335
+      Ingredients Sprites_24: -1929180629
+      Ingredients Sprites_25: -304307043
+      Ingredients Sprites_26: -735149900
+      Ingredients Sprites_27: 186005074
+      Ingredients Sprites_28: 2034302996
+      Ingredients Sprites_29: 601347719
+      Ingredients Sprites_3: 1208337576
+      Ingredients Sprites_30: 1809258426
+      Ingredients Sprites_31: -49576245
+      Ingredients Sprites_32: -575153925
+      Ingredients Sprites_34: -393245327
+      Ingredients Sprites_35: -1747488699
+      Ingredients Sprites_36: -9621113
+      Ingredients Sprites_37: 1840782263
+      Ingredients Sprites_38: 984385199
+      Ingredients Sprites_39: -1069157246
+      Ingredients Sprites_4: -1133425351
+      Ingredients Sprites_40: -954524322
+      Ingredients Sprites_41: -154441578
+      Ingredients Sprites_42: -522344407
+      Ingredients Sprites_43: -1191887675
+      Ingredients Sprites_44: -561824062
+      Ingredients Sprites_46: 579902701
+      Ingredients Sprites_47: -888749134
+      Ingredients Sprites_48: -1575241627
+      Ingredients Sprites_49: 1966076688
+      Ingredients Sprites_5: 115812458
+      Ingredients Sprites_50: -192695873
+      Ingredients Sprites_51: 888230064
+      Ingredients Sprites_52: -197811293
+      Ingredients Sprites_53: 1159901886
+      Ingredients Sprites_54: 1850059229
+      Ingredients Sprites_55: 1055134899
+      Ingredients Sprites_57: 1658356861
+      Ingredients Sprites_58: -1934863832
+      Ingredients Sprites_59: 331059446
+      Ingredients Sprites_6: -1245272437
+      Ingredients Sprites_61: -102407567
+      Ingredients Sprites_62: 1666954067
+      Ingredients Sprites_7: -1905726075
+      Ingredients Sprites_8: -1610228272
+      Lettuce: -835425808
+      Onions: -731191002
+      Tomatoes: -7629271
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
