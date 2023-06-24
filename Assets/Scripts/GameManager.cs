@@ -8,7 +8,7 @@ public class GameManager : MonoBehaviour
     [SerializeField] private ScoreManager scoreManager;
     [SerializeField] private OrderController orderController;
 
-    [Header("Sandwich Managment")]    
+    [Header("Sandwich Management")]    
     [SerializeField] private Transform tableSandwichParent;
     [SerializeField] private RectTransform plateRectTransform;
     [SerializeField] private IngredientHolder ingredientHolder; 
@@ -17,14 +17,27 @@ public class GameManager : MonoBehaviour
     [Header("Gameover Screen")]
     [SerializeField] private GameObject gameoverScreen;
 
-    private bool isGameover;
+    private bool isGameover, hasStarted;
 
-    private void Start() {
+    [Header("Audio")]
+    [SerializeField] private AudioClip addIngredientAudioClip;
+    [SerializeField] private AudioClip removeIngredientAudioClip;
+
+    [SerializeField] private AudioSource audioSource;
+
+    private void Start() 
+    {
         SetTableSandwich();
     }
 
-    private void SetTableSandwich(){
+    private void SetTableSandwich()
+    {
         currentSandwich = new Sandwich();    
+    }
+
+    public Sandwich GetSandwich()
+    {
+        return currentSandwich;
     }
 
     public void AddIngredientToSandwich(Ingredient selectedIngredient){
@@ -32,17 +45,35 @@ public class GameManager : MonoBehaviour
         newIngredient.gameObject.SetActive(true);
         newIngredient.Initialize(selectedIngredient);
 
-        currentSandwich.compoundIngredients.Add(selectedIngredient);
+        currentSandwich.CompoundIngredients.Add(selectedIngredient);
+
+        PlaySoundClip(addIngredientAudioClip);
     }
 
-    public RectTransform GetPlateRectTransform(){
+    public void RemoveSandwichIngredientFromTop()
+    {
+        Destroy(tableSandwichParent.GetChild(tableSandwichParent.childCount-1).gameObject);
+        currentSandwich.CompoundIngredients.RemoveAt(currentSandwich.CompoundIngredients.Count - 1);
+
+        PlaySoundClip(removeIngredientAudioClip);
+    }
+
+    private void PlaySoundClip(AudioClip clip)
+    {
+        audioSource.clip = clip;
+        audioSource.Play();
+    }
+
+    public RectTransform GetTopRectTransform()
+    {
         if(tableSandwichParent.childCount > 0)
             return tableSandwichParent.GetChild(tableSandwichParent.childCount-1).transform as RectTransform;
         else
             return plateRectTransform;
     }
 
-    public void DeliverSandwichButton(){
+    public void DeliverSandwichButton()
+    {
         scoreManager.CalculateScore(currentSandwich, orderController.GetRequiredOrderIngredients());
         FreeSandwichPlate();
         orderController.GetRandomSandwichOrder();
@@ -60,22 +91,42 @@ public class GameManager : MonoBehaviour
         SetTableSandwich();
     }
 
-    public void GameOver(){
+    public void GameOver()
+    {
         isGameover = true;
         
         gameoverScreen.SetActive(true);
         scoreManager.UpdateGameoverScores();
     }
 
-    public bool IsGameRunnning(){
-        return !isGameover;
+    public void StartGame(){
+        hasStarted = true;
     }
 
-    public void RestartScene(){
+    public bool IsGameRunnning()
+    {
+        return !isGameover && hasStarted;
+    }
+
+    public void RestartSceneButton()
+    {
+        CancelInvoke("RestartScene");
+        Invoke("RestartScene", 0.25f);
+    }
+
+    private void RestartScene()
+    {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex); // Reloads scene
     }
 
-    public void LoadHomeScene(){
+    public void LoadHomeScene()
+    {
+        CancelInvoke("LoadHomeSceneButton");
+        Invoke("LoadHomeSceneButton",0.25f);
+    }
+
+    public void LoadHomeSceneButton()
+    {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1); // Loads menu scene
     }
 }

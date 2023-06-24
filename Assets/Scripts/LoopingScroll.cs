@@ -12,7 +12,8 @@ public class LoopingScroll : MonoBehaviour
     private HorizontalLayoutGroup layoutGroup;
     private float contentWidth;
     private float normalizedPosition;
-    
+    private float childWidth = 75;
+
     private void Start()
     {
         contentRectTransform = scrollRect.content;
@@ -35,7 +36,7 @@ public class LoopingScroll : MonoBehaviour
     {
         float spacing = layoutGroup.spacing;
         float childCount = contentRectTransform.childCount;
-        float childWidth = 75;
+
 
         float contentWidth = (childWidth + spacing) * childCount - spacing;
         return contentWidth;

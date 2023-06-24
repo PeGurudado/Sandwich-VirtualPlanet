@@ -12,16 +12,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a4028d461853c8d429fc4b69bba4c0dd, type: 3}
   m_Name: Sandwich 4
   m_EditorClassIdentifier: 
-  sandwichName: Sandubate
-  sandwichIcon: {fileID: -1863044383, guid: 1b08143d683d9764294ca0b5e763bc53, type: 3}
-  compoundIngredients:
-  - ingredientName: Bread
-    ingredientIcon: {fileID: -43957287, guid: ef92f89ef0e60e149b7a717f492057dc, type: 3}
-  - ingredientName: Tomatoes
-    ingredientIcon: {fileID: -7629271, guid: ef92f89ef0e60e149b7a717f492057dc, type: 3}
-  - ingredientName: Cheese
-    ingredientIcon: {fileID: -270534185, guid: ef92f89ef0e60e149b7a717f492057dc, type: 3}
-  - ingredientName: Onions
-    ingredientIcon: {fileID: -731191002, guid: ef92f89ef0e60e149b7a717f492057dc, type: 3}
-  - ingredientName: Bread
-    ingredientIcon: {fileID: -43957287, guid: ef92f89ef0e60e149b7a717f492057dc, type: 3}
+  SandwichName: Sandubate
+  SandwichIcon: {fileID: -1863044383, guid: 1b08143d683d9764294ca0b5e763bc53, type: 3}
+  CompoundIngredients:
+  - IngredientName: 0
+    IngredientIcon: {fileID: -43957287, guid: ef92f89ef0e60e149b7a717f492057dc, type: 3}
+  - IngredientName: 4
+    IngredientIcon: {fileID: -7629271, guid: ef92f89ef0e60e149b7a717f492057dc, type: 3}
+  - IngredientName: 3
+    IngredientIcon: {fileID: -270534185, guid: ef92f89ef0e60e149b7a717f492057dc, type: 3}
+  - IngredientName: 5
+    IngredientIcon: {fileID: -731191002, guid: ef92f89ef0e60e149b7a717f492057dc, type: 3}
+  - IngredientName: 0
+    IngredientIcon: {fileID: -43957287, guid: ef92f89ef0e60e149b7a717f492057dc, type: 3}

@@ -7,9 +7,7 @@ public class IngredientBucket : MonoBehaviour
     [SerializeField] private RectTransform rectTransform;
     [SerializeField] private IngredientHolder ingredientHolderPrefab;
     [SerializeField] private Ingredient ingredient; // The specific ingredient for this bucket
-
     private IngredientHolder currentIngredientHolder;
-
     private bool isDragging = false;
 
     private void Update()
@@ -50,7 +48,7 @@ public class IngredientBucket : MonoBehaviour
                 isDragging = false;
 
                 // Check if the release position is within the plate's bounds
-                RectTransform plateRectTransform = gameManager.GetPlateRectTransform();
+                RectTransform plateRectTransform = gameManager.GetTopRectTransform();
                 Vector2 localMousePos;
                 RectTransformUtility.ScreenPointToLocalPointInRectangle(plateRectTransform, Input.mousePosition, null, out localMousePos);
 
@@ -70,7 +68,7 @@ public class IngredientBucket : MonoBehaviour
     private bool IsMouseOverBucket()
     {
         // Get the RectTransform of the ingredient bucket
-        RectTransform bucketRectTransform = GetComponent<RectTransform>();
+        RectTransform bucketRectTransform = rectTransform;
 
         // Convert the mouse position to the local position of the bucket
         Vector2 localMousePos;

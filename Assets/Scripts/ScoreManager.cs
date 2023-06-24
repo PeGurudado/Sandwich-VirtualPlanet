@@ -9,56 +9,55 @@ public class ScoreManager : MonoBehaviour
     [SerializeField] private TextMeshProUGUI menuHighscoreText;
     [SerializeField] private TextMeshProUGUI menuScoreText;
     private int currentScore = 0;
-
     public static string HighscoreDataString = "Highscore";
 
-    private void Start() {
+    private void Start() 
+    {
         UpdateScoreText();
         UpdateHighscore();
     }
 
-    private void UpdateHighscore(){
+    private void UpdateHighscore()
+    {
         if(currentScore > PlayerPrefs.GetInt(HighscoreDataString,0))
             PlayerPrefs.SetInt(HighscoreDataString,currentScore);
 
         if(menuHighscoreText) menuHighscoreText.text = "Highscore: "+PlayerPrefs.GetInt(HighscoreDataString,0); 
     }
 
-    private void UpdateScoreText(){
+    private void UpdateScoreText()
+    {
         if(scoreText) scoreText.text = "Score "+currentScore;
     }
 
-    public void UpdateGameoverScores(){
+    public void UpdateGameoverScores()
+    {
         UpdateHighscore();
         menuScoreText.text = "Score: "+currentScore;
     }
 
     public void CalculateScore(Sandwich currentSandwich, List<Ingredient> requiredOrderIngredients)
     {
-        if (currentSandwich.compoundIngredients.Count <= requiredOrderIngredients.Count)
+        if (currentSandwich.CompoundIngredients.Count <= requiredOrderIngredients.Count)
         {
-            int correctIngredientsCount = 0;
-
             for (int i = 0; i < requiredOrderIngredients.Count; i++)
             {
-                Ingredient currentIngredient = requiredOrderIngredients[i];
+                Ingredient requiredIngredient = requiredOrderIngredients[i];
 
-                if (i < currentSandwich.compoundIngredients.Count)
+                if (i < currentSandwich.CompoundIngredients.Count)
                 {
-                    Ingredient sandwichIngredient = currentSandwich.compoundIngredients[i];
+                    Ingredient currentIngredient = currentSandwich.CompoundIngredients[i];
 
-                    if (currentIngredient.ingredientName == sandwichIngredient.ingredientName)
+                    if (requiredIngredient.IngredientName == currentIngredient.IngredientName)
                     {
                         // Ingredient is correct
-                        currentScore += 10;
+                        currentScore += 15;
 
-                        if (i > 0 && currentIngredient.ingredientName == currentSandwich.compoundIngredients[i - 1].ingredientName)
+                        if (i > 0 && requiredIngredient.IngredientName == currentSandwich.CompoundIngredients[i - 1].IngredientName)
                         {
                             // Ingredient is in the proper order
-                            currentScore += 5;
+                            currentScore += 10;
                         }
-
-                        correctIngredientsCount++;
                     }
                     else
                     {
@@ -68,17 +67,14 @@ public class ScoreManager : MonoBehaviour
                 }
                 else
                 {
-                    // Extra ingredient in the sandwich
+                    // Less ingredients than expected
                     currentScore -= 5;
                 }
             }
-
-            // Add additional scores for each correct ingredient placed
-            currentScore += correctIngredientsCount * 5;
         }
         else
         {
-            // Incorrect number of ingredients
+            // More ingredients than expected
             currentScore -= 5;
         }
 

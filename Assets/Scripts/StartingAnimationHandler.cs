@@ -6,12 +6,22 @@ public class StartingAnimationHandler : MonoBehaviour
 {
     [SerializeField] private GameObject topFrameObj;
     [SerializeField] private TimerController timerController;
+    [SerializeField] private GameManager gameManager;
 
-    public void EnableTopFrame(){
+    private void EnableTopFrame()
+    {
         topFrameObj.SetActive(true);
     }
 
-    public void EnableTimer(){
+    private void EnableTimer()
+    {
         timerController.InitializeTimer();
+    }
+
+    private void TriggerEndOfAnimation()
+    {
+        EnableTopFrame();
+        EnableTimer();
+        gameManager.StartGame();
     }
 }

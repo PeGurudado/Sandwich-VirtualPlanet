@@ -5,11 +5,14 @@ using UnityEngine;
 
 public class MenuManager : MonoBehaviour
 {
-    public void PlayButton(){       
-        Invoke("LoadNextScene",0.15f);
+    public void PlayButton()
+    {       
+        CancelInvoke("LoadNextScene");
+        Invoke("LoadNextScene",0.25f);
     }
 
-    private void LoadNextScene(){
+    private void LoadNextScene()
+    {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1); // Loads next scene (Main scene)
     }
 }

@@ -8,9 +8,10 @@ public class IngredientHolder : MonoBehaviour
     [SerializeField] private Image ingredientImage;
     [SerializeField] private Ingredient ingredient;
 
-    public void Initialize(Ingredient ingredient){
+    public void Initialize(Ingredient ingredient)
+    {
         this.ingredient = ingredient;
-        ingredientImage.sprite = ingredient.ingredientIcon;
+        ingredientImage.sprite = ingredient.IngredientIcon;
     }
 
 }

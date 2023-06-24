@@ -744,8 +744,8 @@ MonoBehaviour:
   rectTransform: {fileID: 249997104}
   ingredientHolderPrefab: {fileID: 6620697594902184348, guid: 733849c24ce7644478f2e26b25b606b2, type: 3}
   ingredient:
-    ingredientName: Ham
-    ingredientIcon: {fileID: -1708581323, guid: ef92f89ef0e60e149b7a717f492057dc, type: 3}
+    IngredientName: 2
+    IngredientIcon: {fileID: -1708581323, guid: ef92f89ef0e60e149b7a717f492057dc, type: 3}
 --- !u!1 &319721134
 GameObject:
   m_ObjectHideFlags: 0
@@ -1435,6 +1435,134 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 507052904}
   m_CullTransparentMesh: 1
+--- !u!1 &517940783
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 517940785}
+  - component: {fileID: 517940784}
+  m_Layer: 0
+  m_Name: Music AudioSource
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!82 &517940784
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 517940783}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: c07bf4f2d92cf634db2189fae91c7f3f, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 0.25
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!4 &517940785
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 517940783}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -883.011, y: -260.49387, z: -0.23272175}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1157485004}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &583705814
 GameObject:
   m_ObjectHideFlags: 0
@@ -1648,7 +1776,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scrollRect: {fileID: 584884733}
-  scrollSpeed: 50
+  scrollSpeed: 100
 --- !u!1 &594772326
 GameObject:
   m_ObjectHideFlags: 0
@@ -2015,6 +2143,7 @@ GameObject:
   - component: {fileID: 639231589}
   - component: {fileID: 639231591}
   - component: {fileID: 639231590}
+  - component: {fileID: 639231592}
   m_Layer: 5
   m_Name: Plate
   m_TagString: Untagged
@@ -2081,6 +2210,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 639231588}
   m_CullTransparentMesh: 1
+--- !u!114 &639231592
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 639231588}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 261fed409d13ba84694e5afbbe7c1bba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  canvasTransform: {fileID: 1463155071}
+  gameManager: {fileID: 951428968}
+  ingredientHolderPrefab: {fileID: 6620697594902184348, guid: 733849c24ce7644478f2e26b25b606b2, type: 3}
 --- !u!1 &639286034
 GameObject:
   m_ObjectHideFlags: 0
@@ -2495,6 +2639,7 @@ GameObject:
   - component: {fileID: 760984292}
   - component: {fileID: 760984295}
   - component: {fileID: 760984293}
+  - component: {fileID: 760984296}
   m_Layer: 5
   m_Name: Bell Button
   m_TagString: Untagged
@@ -2587,6 +2732,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 760984291}
   m_CullTransparentMesh: 1
+--- !u!114 &760984296
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 760984291}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5adb74f09b1cdd74187e38f3d028115f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  audioClip: {fileID: 8300000, guid: 963d27ad134481544b40ab232a9fe43b, type: 3}
+  audioSource: {fileID: 1215250200}
 --- !u!1 &778740426
 GameObject:
   m_ObjectHideFlags: 0
@@ -2762,6 +2921,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6620697594902184348, guid: 733849c24ce7644478f2e26b25b606b2, type: 3}
+      propertyPath: ingredient.IngredientIcon
+      value: 
+      objectReference: {fileID: -43957287, guid: ef92f89ef0e60e149b7a717f492057dc, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 733849c24ce7644478f2e26b25b606b2, type: 3}
 --- !u!224 &783801101 stripped
@@ -3186,6 +3349,9 @@ MonoBehaviour:
   plateRectTransform: {fileID: 639231589}
   ingredientHolder: {fileID: 1591840979}
   gameoverScreen: {fileID: 1971608251}
+  addIngredientAudioClip: {fileID: 8300000, guid: aaf00fc2501fd214a9071512f6300cee, type: 3}
+  removeIngredientAudioClip: {fileID: 8300000, guid: 8fa4e591ddd98dc40ac4c8b9c250e3c0, type: 3}
+  audioSource: {fileID: 1215250200}
 --- !u!1 &954777922
 GameObject:
   m_ObjectHideFlags: 0
@@ -3354,7 +3520,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: -462.5005, y: 0}
-  m_SizeDelta: {x: 900, y: 100}
+  m_SizeDelta: {x: 850, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1007330387
 MonoBehaviour:
@@ -4068,6 +4234,7 @@ GameObject:
   - component: {fileID: 1145552669}
   - component: {fileID: 1145552668}
   - component: {fileID: 1145552671}
+  - component: {fileID: 1145552672}
   m_Layer: 5
   m_Name: Restart Button
   m_TagString: Untagged
@@ -4142,7 +4309,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 951428968}
         m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
-        m_MethodName: RestartScene
+        m_MethodName: RestartSceneButton
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -4211,6 +4378,53 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &1145552672
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1145552666}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5adb74f09b1cdd74187e38f3d028115f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  audioClip: {fileID: 8300000, guid: 13270c2a1b91746418167e94fcb79ce9, type: 3}
+  audioSource: {fileID: 1215250200}
+--- !u!1 &1157485003
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1157485004}
+  m_Layer: 0
+  m_Name: Audios
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1157485004
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1157485003}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 883.011, y: 260.49387, z: 0.23272175}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 517940785}
+  - {fileID: 1215250199}
+  m_Father: {fileID: 0}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1210129378
 GameObject:
   m_ObjectHideFlags: 0
@@ -4224,6 +4438,7 @@ GameObject:
   - component: {fileID: 1210129381}
   - component: {fileID: 1210129380}
   - component: {fileID: 1210129383}
+  - component: {fileID: 1210129384}
   m_Layer: 5
   m_Name: Home Button
   m_TagString: Untagged
@@ -4298,7 +4513,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 951428968}
         m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
-        m_MethodName: LoadHomeScene
+        m_MethodName: LoadHomeSceneButton
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -4367,6 +4582,148 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &1210129384
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1210129378}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5adb74f09b1cdd74187e38f3d028115f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  audioClip: {fileID: 8300000, guid: 13270c2a1b91746418167e94fcb79ce9, type: 3}
+  audioSource: {fileID: 1215250200}
+--- !u!1 &1215250198
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1215250199}
+  - component: {fileID: 1215250200}
+  m_Layer: 0
+  m_Name: Songs AudioSource
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1215250199
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1215250198}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -883.011, y: -260.49387, z: -0.23272175}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1157485004}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!82 &1215250200
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1215250198}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 0
+  m_Volume: 0.5
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &1250914571
 GameObject:
   m_ObjectHideFlags: 0
@@ -4615,8 +4972,8 @@ MonoBehaviour:
   rectTransform: {fileID: 1290286814}
   ingredientHolderPrefab: {fileID: 6620697594902184348, guid: 733849c24ce7644478f2e26b25b606b2, type: 3}
   ingredient:
-    ingredientName: Lettuce
-    ingredientIcon: {fileID: -835425808, guid: ef92f89ef0e60e149b7a717f492057dc, type: 3}
+    IngredientName: 1
+    IngredientIcon: {fileID: -835425808, guid: ef92f89ef0e60e149b7a717f492057dc, type: 3}
 --- !u!1 &1300787395
 GameObject:
   m_ObjectHideFlags: 0
@@ -5042,8 +5399,8 @@ MonoBehaviour:
   rectTransform: {fileID: 1435528689}
   ingredientHolderPrefab: {fileID: 6620697594902184348, guid: 733849c24ce7644478f2e26b25b606b2, type: 3}
   ingredient:
-    ingredientName: Cheese
-    ingredientIcon: {fileID: -270534185, guid: ef92f89ef0e60e149b7a717f492057dc, type: 3}
+    IngredientName: 3
+    IngredientIcon: {fileID: -270534185, guid: ef92f89ef0e60e149b7a717f492057dc, type: 3}
 --- !u!1 &1463155067
 GameObject:
   m_ObjectHideFlags: 0
@@ -5541,7 +5898,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 1
+  m_text: 3
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 683cdba949949b4458eb96444b338c6e, type: 2}
   m_sharedMaterial: {fileID: -8865002368671259120, guid: 683cdba949949b4458eb96444b338c6e, type: 2}
@@ -5921,8 +6278,8 @@ MonoBehaviour:
   rectTransform: {fileID: 1806491965}
   ingredientHolderPrefab: {fileID: 6620697594902184348, guid: 733849c24ce7644478f2e26b25b606b2, type: 3}
   ingredient:
-    ingredientName: Tomatoes
-    ingredientIcon: {fileID: -7629271, guid: ef92f89ef0e60e149b7a717f492057dc, type: 3}
+    IngredientName: 4
+    IngredientIcon: {fileID: -7629271, guid: ef92f89ef0e60e149b7a717f492057dc, type: 3}
 --- !u!1 &1858471037
 GameObject:
   m_ObjectHideFlags: 0
@@ -6381,6 +6738,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   topFrameObj: {fileID: 127445849}
   timerController: {fileID: 954777924}
+  gameManager: {fileID: 951428968}
 --- !u!1 &1950730412
 GameObject:
   m_ObjectHideFlags: 0
@@ -6558,8 +6916,8 @@ MonoBehaviour:
   rectTransform: {fileID: 1957699332}
   ingredientHolderPrefab: {fileID: 6620697594902184348, guid: 733849c24ce7644478f2e26b25b606b2, type: 3}
   ingredient:
-    ingredientName: Bread
-    ingredientIcon: {fileID: -43957287, guid: ef92f89ef0e60e149b7a717f492057dc, type: 3}
+    IngredientName: 0
+    IngredientIcon: {fileID: -43957287, guid: ef92f89ef0e60e149b7a717f492057dc, type: 3}
 --- !u!1 &1960372027
 GameObject:
   m_ObjectHideFlags: 0
@@ -6618,7 +6976,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 3
+  m_text: 1
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 683cdba949949b4458eb96444b338c6e, type: 2}
   m_sharedMaterial: {fileID: -8865002368671259120, guid: 683cdba949949b4458eb96444b338c6e, type: 2}
@@ -7170,8 +7528,8 @@ MonoBehaviour:
   rectTransform: {fileID: 2096586653}
   ingredientHolderPrefab: {fileID: 6620697594902184348, guid: 733849c24ce7644478f2e26b25b606b2, type: 3}
   ingredient:
-    ingredientName: Onions
-    ingredientIcon: {fileID: -731191002, guid: ef92f89ef0e60e149b7a717f492057dc, type: 3}
+    IngredientName: 5
+    IngredientIcon: {fileID: -731191002, guid: ef92f89ef0e60e149b7a717f492057dc, type: 3}
 --- !u!1 &2117324388
 GameObject:
   m_ObjectHideFlags: 0

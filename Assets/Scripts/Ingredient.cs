@@ -3,6 +3,10 @@ using UnityEngine;
 [System.Serializable]
 public class Ingredient
 {
-    public string ingredientName;
-    public Sprite ingredientIcon;
+    public IngredientNames IngredientName; 
+    public Sprite IngredientIcon;
+}
+
+public enum IngredientNames{
+    Bread, Lettuce, Ham, Cheese, Tomatoes, Onions
 }

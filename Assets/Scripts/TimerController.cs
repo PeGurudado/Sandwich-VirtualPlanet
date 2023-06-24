@@ -3,13 +3,14 @@ using TMPro;
 
 public class TimerController : MonoBehaviour
 {
-    [SerializeField] GameManager gameManager;
+    [SerializeField] private GameManager gameManager;
     [SerializeField] private float totalTime = 120f;  // Total time for the timer in seconds
     [SerializeField] private TextMeshProUGUI timerText;  // Reference to the TMPro text component
 
     private float currentTime;  // Current time of the timer
 
-    public void InitializeTimer(){
+    public void InitializeTimer()
+    {
         currentTime = totalTime;
     }
 

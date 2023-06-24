@@ -17,7 +17,8 @@ public class OrderController : MonoBehaviour
 
     private List<Ingredient> requiredOrderIngredients;
 
-    private void Awake() {
+    private void Awake() 
+    {
         // Load all the sandwiches from the "Sandwiches" folder in the Resources folder
         sandwiches = Resources.LoadAll<Sandwich>(scriptableObjectsPath);
     }
@@ -33,9 +34,9 @@ public class OrderController : MonoBehaviour
         Sandwich randomSandwich = sandwiches[Random.Range(0, sandwiches.Length)];
 
         // Access the properties of the random sandwich
-        string sandwichName = randomSandwich.sandwichName;
-        Sprite sandwichIcon = randomSandwich.sandwichIcon;
-        requiredOrderIngredients = randomSandwich.compoundIngredients;        
+        string sandwichName = randomSandwich.SandwichName;
+        Sprite sandwichIcon = randomSandwich.SandwichIcon;
+        requiredOrderIngredients = randomSandwich.CompoundIngredients;        
 
         orderIcon.sprite = sandwichIcon;
         orderName.text = sandwichName;
@@ -43,7 +44,8 @@ public class OrderController : MonoBehaviour
         SetOrderIngredientsUI();
     }
 
-    private void SetOrderIngredientsUI(){
+    private void SetOrderIngredientsUI()
+    {
 
         // Destroy all ingredients inside orderIngredientsParent
         foreach (Transform child in orderIngredientsParent)
@@ -60,7 +62,8 @@ public class OrderController : MonoBehaviour
         }
     }
 
-    public List<Ingredient> GetRequiredOrderIngredients(){
+    public List<Ingredient> GetRequiredOrderIngredients()
+    {
         return requiredOrderIngredients;
     }
 }
