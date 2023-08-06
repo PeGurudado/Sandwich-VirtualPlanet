@@ -8,9 +8,4 @@
 ## Play now at itch io: [https://8pixels.itch.io/sandwich-maker](https://8pixels.itch.io/sandwich-maker) 
 
 
-To Add:
 
-- Generate Random sandwitches orders
-- Make the sandwich icon dynamic from ingredients
-- Remove order name
--Make so that the difficult increase as time goes
