@@ -36,8 +36,9 @@ public class ScoreManager : MonoBehaviour
         menuScoreText.text = "Score: "+currentScore;
     }
 
-    public void CalculateScore(Sandwich currentSandwich, List<Ingredient> requiredOrderIngredients)
+    public int CalculateScore(Sandwich currentSandwich, List<Ingredient> requiredOrderIngredients)
     {
+        int prevScore = currentScore;
         if (currentSandwich.CompoundIngredients.Count <= requiredOrderIngredients.Count)
         {
             for (int i = 0; i < requiredOrderIngredients.Count; i++)
@@ -79,5 +80,9 @@ public class ScoreManager : MonoBehaviour
         }
 
         UpdateScoreText();
+
+        int totalScoreBonus = -(prevScore - currentScore);
+        return totalScoreBonus; 
+
     }
 }

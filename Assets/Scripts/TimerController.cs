@@ -37,6 +37,12 @@ public class TimerController : MonoBehaviour
         timerText.text = timerString;
     }
 
+
+    public void IncreaseTimer(float value)
+    {
+        currentTime += value;
+        UpdateTimerText();
+    }
     private void TimerEnded()
     {
         gameManager.GameOver();

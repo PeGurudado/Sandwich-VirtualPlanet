@@ -33,7 +33,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -67,7 +67,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 4096
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -141,7 +141,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Ingredients Sprites_0
+      name: Cucumber
       rect:
         serializedVersion: 2
         x: 128
@@ -351,7 +351,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ingredients Sprites_10
+      name: Spinach
       rect:
         serializedVersion: 2
         x: 46
@@ -414,7 +414,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ingredients Sprites_13
+      name: Potatoes
       rect:
         serializedVersion: 2
         x: 2452
@@ -540,69 +540,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ingredients Sprites_19
-      rect:
-        serializedVersion: 2
-        x: 323
-        y: 2808
-        width: 133
-        height: 58
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 441bfb387ae5cf3449a469acc2696cf9
-      internalID: -1097147413
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Ingredients Sprites_20
-      rect:
-        serializedVersion: 2
-        x: 463
-        y: 2811
-        width: 123
-        height: 52
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 174b36679f0d4e049aa98db580191bd8
-      internalID: 78183729
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Ingredients Sprites_21
-      rect:
-        serializedVersion: 2
-        x: 596
-        y: 2750
-        width: 134
-        height: 72
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e283b41c885309141b6da9e91aed4650
-      internalID: -1262819926
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: Tomatoes
       rect:
         serializedVersion: 2
@@ -624,13 +561,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ingredients Sprites_23
+      name: Mushrooms
       rect:
         serializedVersion: 2
         x: 1769
-        y: 2699
+        y: 2658
         width: 554
-        height: 176
+        height: 217
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -732,10 +669,10 @@ TextureImporter:
       name: Ingredients Sprites_28
       rect:
         serializedVersion: 2
-        x: 203
-        y: 2733
-        width: 147
-        height: 61
+        x: 207
+        y: 2679
+        width: 520
+        height: 184
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -745,27 +682,6 @@ TextureImporter:
       bones: []
       spriteID: 54f34b3996a72d448aff1a1e47d1b9dd
       internalID: 2034302996
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Ingredients Sprites_30
-      rect:
-        serializedVersion: 2
-        x: 402
-        y: 2678
-        width: 153
-        height: 75
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6caa82a1e89a70e4f8925b589f187317
-      internalID: 1809258426
       vertices: []
       indices: 
       edges: []
@@ -939,7 +855,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ingredients Sprites_39
+      name: Peperoni
       rect:
         serializedVersion: 2
         x: 2494
@@ -1023,13 +939,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ingredients Sprites_43
+      name: Bacon
       rect:
         serializedVersion: 2
-        x: 2405
-        y: 1796
-        width: 840
-        height: 325
+        x: 2501
+        y: 1845
+        width: 640
+        height: 276
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1453,15 +1369,14 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
+      Bacon: -1191887675
       Bread-1: -43957287
       Bread-2: 705700452
       Cheese: -270534185
+      Cucumber: -795209544
       Ham: -1708581323
-      Ingredients Sprites_0: -795209544
-      Ingredients Sprites_10: -477348356
       Ingredients Sprites_11: 58629392
       Ingredients Sprites_12: 1236625706
-      Ingredients Sprites_13: 1926187794
       Ingredients Sprites_14: 160002525
       Ingredients Sprites_15: -352349876
       Ingredients Sprites_16: 1082604622
@@ -1471,7 +1386,6 @@ TextureImporter:
       Ingredients Sprites_2: -1536611146
       Ingredients Sprites_20: 78183729
       Ingredients Sprites_21: -1262819926
-      Ingredients Sprites_23: -1809034335
       Ingredients Sprites_24: -1929180629
       Ingredients Sprites_25: -304307043
       Ingredients Sprites_26: -735149900
@@ -1487,12 +1401,10 @@ TextureImporter:
       Ingredients Sprites_36: -9621113
       Ingredients Sprites_37: 1840782263
       Ingredients Sprites_38: 984385199
-      Ingredients Sprites_39: -1069157246
       Ingredients Sprites_4: -1133425351
       Ingredients Sprites_40: -954524322
       Ingredients Sprites_41: -154441578
       Ingredients Sprites_42: -522344407
-      Ingredients Sprites_43: -1191887675
       Ingredients Sprites_44: -561824062
       Ingredients Sprites_46: 579902701
       Ingredients Sprites_47: -888749134
@@ -1514,7 +1426,11 @@ TextureImporter:
       Ingredients Sprites_7: -1905726075
       Ingredients Sprites_8: -1610228272
       Lettuce: -835425808
+      Mushrooms: -1809034335
       Onions: -731191002
+      Peperoni: -1069157246
+      Potatoes: 1926187794
+      Spinach: -477348356
       Tomatoes: -7629271
   spritePackingTag: 
   pSDRemoveMatte: 0

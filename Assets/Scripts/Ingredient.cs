@@ -8,5 +8,6 @@ public class Ingredient
 }
 
 public enum IngredientNames{
-    Bread, Lettuce, Ham, Cheese, Tomatoes, Onions
+    Bread, Lettuce, Ham, Cheese, Tomatoes, Onions, 
+    Potatoes, Bacon, Peperoni, Cucumber, Mushrooms, Spinach
 }

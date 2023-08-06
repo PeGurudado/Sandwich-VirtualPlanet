@@ -1,0 +1,13 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Swinging Image
+  m_Controller: {fileID: 9100000, guid: 2c61affedce515d4594b0fcdd6618cae, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: 090e6585e58f31e4887a33773ccab988, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 0e5e5640b20ba7d4a980d765bcd74780, type: 2}

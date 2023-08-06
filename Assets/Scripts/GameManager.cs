@@ -5,10 +5,15 @@ using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
+    [SerializeField] private float increaseTimerFromPerfect = 10;
     [SerializeField] private ScoreManager scoreManager;
     [SerializeField] private OrderController orderController;
+    [SerializeField] private GradeEffectScript gradeEffect;
+    [SerializeField] private GradeEffectScript plusTimerEffect;
+    [SerializeField] private TimerController timerController;
 
-    [Header("Sandwich Management")]    
+    [Header("Sandwich Management")]
+    [SerializeField] private AdjustRectBasedOnIngredients adjustOrderScript;
     [SerializeField] private Transform tableSandwichParent;
     [SerializeField] private RectTransform plateRectTransform;
     [SerializeField] private IngredientHolder ingredientHolder; 
@@ -66,20 +71,43 @@ public class GameManager : MonoBehaviour
 
     public RectTransform GetTopRectTransform()
     {
-        if(tableSandwichParent.childCount > 0)
+        if(tableSandwichParent.childCount > 1)
             return tableSandwichParent.GetChild(tableSandwichParent.childCount-1).transform as RectTransform;
         else
             return plateRectTransform;
     }
 
+    public void IncreaseTimer(float value)
+    {
+        timerController.IncreaseTimer(value);
+    }
+
     public void DeliverSandwichButton()
     {
-        scoreManager.CalculateScore(currentSandwich, orderController.GetRequiredOrderIngredients());
+        CalculateGrade();
+
         FreeSandwichPlate();
         orderController.GetRandomSandwichOrder();
+        adjustOrderScript.AdjustRectOnIngredients();
         currentSandwich = new Sandwich();
     }
     
+    private void CalculateGrade()
+    {
+        int totalBonus = scoreManager.CalculateScore(currentSandwich, orderController.GetRequiredOrderIngredients()) / orderController.GetRequiredOrderIngredients().Count;
+
+        GradeEffectScript newGradeEffect = Instantiate(gradeEffect, GetTopRectTransform().position, Quaternion.identity, plateRectTransform);
+        newGradeEffect.Initialize(totalBonus);
+
+        if (totalBonus >= 10) // In case got a perfect
+        {
+            Vector3 effectHeightOffset = new Vector2(0, 80);
+            IncreaseTimer(increaseTimerFromPerfect);
+            GradeEffectScript plusEffect = Instantiate(plusTimerEffect, GetTopRectTransform().position + effectHeightOffset, Quaternion.identity, plateRectTransform);
+            plusEffect.Initialize("+"+ increaseTimerFromPerfect);
+        }
+    }
+
     private void FreeSandwichPlate()
     {
         // Destroy all ingredients inside tableSandwichParent
